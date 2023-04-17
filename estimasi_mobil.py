@@ -1,7 +1,7 @@
 import pickle
 import streamlit as st
 
-model = pickle.load(open('Estimasi_mobil.sav', 'rb'))
+model = pickle.load(open('estimasi_mobil.sav', 'rb'))
 
 st.title('Selamat Datang di Website Estimasi Harga Mobil Toyota Bekas')
 
